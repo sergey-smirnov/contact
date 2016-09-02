@@ -19,7 +19,7 @@
                 let app = new SApplication();
                 app.initializeBackground($('.bg-wrapper > div'));
 
-                $(document).on('mousemove', _.throttle(app.updateOpacity.bind(app), 50));
+                $(document).on('mousemove', _.throttle(app.updateOpacity.bind(app), 100));
             });
 
         </script>
